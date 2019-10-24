@@ -25,6 +25,14 @@
     "extra": {
         "branch-alias": {
             "dev-master": "5.0-dev"
+        },
+        "royalcms": {
+            "providers": [
+                "Royalcms\\Component\\Sms\\SmsServiceProvider"
+            ],
+            "aliases": {
+                "RC_Sms": "Royalcms\\Component\\Sms\\Facades\\Sms"
+            }
         }
     },
     "minimum-stability": "dev"
